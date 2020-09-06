@@ -33,8 +33,8 @@ body {
   .cell-color {
     position: absolute;
     width: 15.5rem;
-    height: 32.5rem !important;
-    bottom: 50px;
+    height: 30.5rem !important;
+    bottom: 30px;
     background-image: linear-gradient(to right, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
     border-radius: 30px 30px 30px 30px;
     border: 13px solid white;
@@ -48,7 +48,7 @@ body {
     width: 9.5rem;
     height: 1.8rem;
     transform: translate(10%, 20%);
-    top: 2.2rem;
+    top: 1.5rem;
     left: 10rem;
     border-radius: 12px 12px 12px 12px;
     background-color: white;
@@ -56,12 +56,12 @@ body {
   }
 
   .cell-inside {
-    width: 15.5rem;
-    height: 460px;
+    width: 15.54rem;
+    height: 26rem;
     position: absolute;
-    bottom: 80px;
+    bottom: 63px;
     background-color: hsl(270, 20%, 96%);
-    transform: translate(123px, 40px);
+    transform: translate(122px, 40px);
     z-index: 3;
   }
 
@@ -69,8 +69,8 @@ body {
    background-color: hsl(276, 35%, 94%);
    color: hsl(276, 55%, 52%);
    width: 10rem;
-   padding: 8px;
-   margin: 7px;
+   padding: 5px;
+   margin: 4px;
    text-align: left;
    text-decoration: none;
    display: inline-block;
@@ -84,7 +84,7 @@ body {
   max-width: 10rem;
   text-align: right;
   padding-left: 5rem;
-  margin-top: 0.8rem;
+  margin-top: 0.3rem !important;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -109,7 +109,7 @@ img {
    text-decoration: none;
    display: inline-block;
    font-size: 0.6rem;
-   margin-top: 0.5rem;
+   margin-top: 0.4rem;
    margin-right: 0.5rem;
    border: 0px white;
    border-radius: 15px;
@@ -125,7 +125,7 @@ img {
    text-decoration: none;
    display: inline-block;
    font-size: 0.6rem;
-   margin-top: 0.5rem;
+   margin-top: 0.3rem;
    border: 0px hsl(276, 35%, 94%);
    border-radius: 15px;
 }
@@ -138,8 +138,8 @@ img {
   position: absolute;
   width: 10.9rem;
   height: 2.3rem;
-  transform: translate(4%, 20%);
-  bottom: 6.7rem;
+  transform: translate(0.3rem, 0.3rem);
+  bottom: 6.3rem;
   margin: 0 auto;
   left: 0.2rem;
   border-radius: 11px 11px 11px 4px;
@@ -155,8 +155,8 @@ img {
     position: absolute;
     width: 10.9rem;
     height: 2.3rem;
-    transform: translate(4%, 20%);
-    bottom: 3.8rem;
+    transform: translate(0.3rem, 0.4rem);
+    bottom: 3.7rem;
     /* top: 2.2rem; */
     left: 0.2rem;
     border-radius: 11px 11px 11px 4px;
@@ -167,7 +167,7 @@ img {
 .circle {
   width: 30px;
   /* flex: 1; */
-  padding: 12px 0 11px 10px;
+  padding: 16px 0 11px 10px;
 }
 
 .price {
@@ -188,7 +188,7 @@ img {
     position: absolute;
     width: 14.2rem;
     height: 2.3rem;
-    transform: translate(25%, 20%);
+    transform: translate(3.4rem, 1.7rem);
     bottom: 3.6rem;
     /* top: 2.2rem; */
     left: 4.8rem;
