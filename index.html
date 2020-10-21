@@ -6,22 +6,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CSS Illustrations</title>
   <link rel="stylesheet" href="mystyles.css">
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
   <div class="container-wrapper">
+
     <div class="container-graphics">
+
       <div class="mouth"></div>
-      <div class="cell-color"></div>
       <div class="oval"></div>
+      <div class="cell-color">
+
+        <!-- Avatar area -->
+        <div class="avatar-area">
+          <div class="back">
+            <img src="images/left-arrow.png" style="height:15px; width: auto;" alt="">
+          </div>
+          <div class="avatar-image">
+            <img src="images/avatar.jpg" class="avatar" alt="">
+          </div>
+          <div class="avatar-text">
+            <p>
+              <h5>Samuel Green</h5>
+              <h6>Available to walk</h6>
+            </p>
+          </div>
+          <div class="three-dots">
+            <img src="images/three-dots.png" style="height: 15px; width:auto;" alt="">
+          </div>
+        </div>
+
+      </div>
 
       <div class="cell-inside">
         <div class="chat-buttons-top">
           <button class="button button1">That sounds great. I'd be happy to discuss more.</button>
           <button class="button button2">Could you send over some pictures of your dog, please?.</button>
         </div>
-
         <div class="dogs-container">
           <div class="dog1">
             <img src="images/dog-image-1.jpg" alt="" />
@@ -33,12 +58,10 @@
             <img src="images/dog-image-3.jpg" alt="" />
           </div>
         </div>
-
         <div class="chat-buttons-middle">
-          <button class="button button3" style="text-align:left">Here are a few pictures. She's a happy gi rl.</button>
+          <button class="button button3" style="text-align:left">Here are a few pictures. She's a happy girl.</button>
           <button class="button button4" style="width:6.5rem; text-align:left">Can you make it?.</button>
         </div>
-
         <div class="chat-button-bottom">
           <button class="button button5">She looks so happy!. The time we discussed works. How long shall I take her out for?</button>
         </div>
@@ -46,9 +69,9 @@
 
         <div class="service1">
           <div class="circle">
-            <img src="images/circle2.png" style="height:15px; width: auto;" alt="" />
+            <img src="images/circle.png" style="height:15px; width: auto;" alt="" />
           </div>
-          <div class="text">
+          <div class="text" style="font-size: small">
             <h5>30minute walk</h5>
           </div>
           <div class="price">
@@ -58,9 +81,9 @@
 
         <div class="service2">
           <div class="circle">
-            <img src="images/circle2.png" style="height:15px; width: auto;" alt="" />
+            <img src="images/circle.png" style="height:15px; width: auto;" alt="" />
           </div>
-          <div class="text">
+          <div class="text" style="font-size: small">
             <h5>1hour walk</h5>
           </div>
           <div class="price">
@@ -68,23 +91,22 @@
           </div>
         </div>
 
-
-
       </div>
 
-
-
-      <div class="type-message">
-        <div class="message-area">
-
+      <div class="message-area">
+        <div class="forward">
+          <img src="images/right-arrow.png" class="forward-arrow" alt="">
         </div>
       </div>
 
     </div>
 
+<!-- Separate Container for the text -->
     <div class="container-simple-booking">
-      <h2>Simple booking</h2>
-      Stay in touch with our dog walkers through our chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed, you can rate your walker and book again through the chat.
+      <h2 class="heading">Simple booking</h2>
+      <p class="text-muted" style="line-height: 1.5; color: #616163">
+        Stay in touch with our dog walkers through our chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed, you can rate your walker and book again through the chat.
+      </p>
     </div>
 
   </div>
